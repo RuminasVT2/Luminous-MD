@@ -13,12 +13,12 @@ global.APIKeys = {
 
 // setting 
 global.autoread = false // auto read pesan / message
-//global.autorecording = true //status auto merekam ( auto record )
+global.autorecording = true //status auto merekam ( auto record )
 //global.autoketik = false //status auto mengetik (auto typing)
 //global.available = false //status online (online)
 
 // Other
-global.botname = "⌬ Luminous BOT 』" //namabot kalian
+global.botname = "⌬ Lolicon BOT 』" //namabot kalian
 global.ownername= "⇱AkyraCans" //nama kalian
 global.myweb ="https://chat.whatsapp.com/CXh8962GOxK6cwDwLjlABw" //bebas asal jan hapus
 global.youtube = "none" //bebas asal jan hapus
@@ -31,7 +31,7 @@ global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder i
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/2fac76c84d61e4d1bb957.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6281347927862","6282253479547"] //ganti agar fitur owner bisa di gunakan
-global.packname = 'Made by | ⌬ Luminous BOT 』' //sticker wm ubah
+global.packname = '⌬ Lolicon BOT' //sticker wm ubah
 global.author = '+62 822-5347-9547' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=blood&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='

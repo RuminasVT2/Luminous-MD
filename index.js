@@ -1014,6 +1014,136 @@ break
                 })
                 }
             break
+            case 'jodohku': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let me = m.sender
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `👫Jodoh mu adalah
+
+@${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
+            let ments = [me, jodoh]
+            let buttons = [
+                        { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
+                    ]
+                    await zaki.sendButtonText(m.chat, buttons, jawab, zaki.user.name, m, {mentions: ments})
+            }
+            break
+            case 'jadian': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let orang = member[Math.floor(Math.random() * member.length)]
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `Ciee yang Jadian💖 Jangan lupa pajak jadiannya🐤
+
+@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
+            let menst = [orang, jodoh]
+            let buttons = [
+                        { buttonId: 'jadian', buttonText: { displayText: 'Jodohku' }, type: 1 }
+                    ]
+                    await zaki.sendButtonText(m.chat, buttons, jawab, zaki.user.name, m, {mentions: menst})
+            }
+            break
+            case 'apakah':
+				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
+					const apa = ['Iya', 'Tidak', 'Bisa Jadi', 'Betul']
+					const kah = apa[Math.floor(Math.random() * apa.length)]
+alpha.sendMessage(from, { text: `Pertanyaan : Apakah ${q}\nJawaban : ${kah}` }, { quoted: m })
+
+					break
+case 'bisakah':
+				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
+					const bisa = ['Bisa','Gak Bisa','Gak Bisa Ajg Aaokawpk','TENTU PASTI KAMU BISA!!!!']
+					const ga = bisa[Math.floor(Math.random() * bisa.length)]
+alpha.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : ${ga}` }, { quoted: m })
+
+					break
+case 'bagaimanakah':
+				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
+					const gimana = ['Gak Gimana2', 'Sulit Itu Bro', 'Maaf Bot Tidak Bisa Menjawab', 'Coba Deh Cari Di Gugel','astaghfirallah Beneran???','Pusing ah','Owhh Begitu:(','Yang Sabar Ya Bos:(','Gimana yeee']
+					const ya = gimana[Math.floor(Math.random() * gimana.length)]
+alpha.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : ${ya}` }, { quoted: m })
+
+					break
+case 'rate':
+ 
+				if (!q) return reply(`Penggunaan ${command} text\n\nContoh : ${command} Gambar aku`)
+					const ra = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+					const te = ra[Math.floor(Math.random() * ra.length)]
+alpha.sendMessage(from, { text: `Rate : ${q}\nJawaban : *${te}%*` }, { quoted: m })
+
+					break
+case 'gantengcek':
+  case 'cekganteng':
+   
+				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} flob`)
+					const gan = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+					const teng = gan[Math.floor(Math.random() * gan.length)]
+alpha.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${teng}%*` }, { quoted: m })
+
+					break
+case 'cantikcek':
+  case 'cekcantik':
+   
+				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} flob`)
+					const can = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+					const tik = can[Math.floor(Math.random() * can.length)]
+alpha.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${tik}%*` }, { quoted: m })
+
+					break
+case 'sangecek':
+  case 'ceksange':
+    case 'gaycek':
+      case 'cekgay':
+        case 'lesbicek':
+          case 'ceklesbi':
+				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} ${pushname}`)
+					const sangeh = ['5', '10', '15','20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
+					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
+alpha.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${sange}%*` }, { quoted: m })
+
+					break
+case 'kapankah':
+				if (!q) return reply(`Penggunaan ${command} Pertanyaan\n\nContoh : ${command} Saya Mati`)
+					const kapan = ['5 Hari Lagi', '10 Hari Lagi', '15 Hari Lagi','20 Hari Lagi', '25 Hari Lagi','30 Hari Lagi','35 Hari Lagi','40 Hari Lagi','45 Hari Lagi','50 Hari Lagi','55 Hari Lagi','60 Hari Lagi','65 Hari Lagi','70 Hari Lagi','75 Hari Lagi','80 Hari Lagi','85 Hari Lagi','90 Hari Lagi','100 Hari Lagi','5 Bulan Lagi', '10 Bulan Lagi', '15 Bulan Lagi','20 Bulan Lagi', '25 Bulan Lagi','30 Bulan Lagi','35 Bulan Lagi','40 Bulan Lagi','45 Bulan Lagi','50 Bulan Lagi','55 Bulan Lagi','60 Bulan Lagi','65 Bulan Lagi','70 Bulan Lagi','75 Bulan Lagi','80 Bulan Lagi','85 Bulan Lagi','90 Bulan Lagi','100 Bulan Lagi','1 Tahun Lagi','2 Tahun Lagi','3 Tahun Lagi','4 Tahun Lagi','5 Tahun Lagi','Besok','Lusa',`Abis Command Ini Juga Lu ${q}`]
+					const kapankah = kapan[Math.floor(Math.random() * kapan.length)]
+alpha.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : *${kapankah}*` }, { quoted: m })
+					break
+case 'wangy':
+              if (!q) return reply (`Contoh : .wangy Riy`)
+              qq = q.toUpperCase()
+              awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
+             m.reply(awikwok)
+              break
+case 'cekmati':
+              if (!q) return reply(`Invalid!\n\nYg mau di cek siapa kontol?`)
+              predea = await axios.get(`https://api.agify.io/?name=${q}`)
+              m.reply(`Nama : ${predea.data.name}\n*Mati Pada Umur :* ${predea.data.age} Tahun.\n\n_Cepet Cepet Tobat Bro Soalnya Mati ga ada yang tau_`)
+              break
+case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
+            if (!m.quoted && !text) throw `Kirim/reply text dengan caption ${prefix + command}`
+            ter = command[1].toLowerCase()
+            tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
+            m.reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
+            break
+case 'emojimix': {
+	        if (!text) throw `Example : ${prefix + command} 😅+🤔`
+		let [emoji1, emoji2] = text.split`+`
+		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
+		for (let res of anu.results) {
+		    let encmedia = await alpha.sendImageAsSticker(m.chat, res.url, m, { packname: global.packname, author: global.author, categories: res.tags })
+		    await fs.unlinkSync(encmedia)
+		}
+	    }
+	    break
+case 'cp': case 'couple': {
+                m.reply(mess.wait)
+                let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                alpha.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male` }, { quoted: m })
+                alpha.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Female` }, { quoted: m })
+            }
+	    break
             case 'character': case 'karakter':
                 if (!q) return reply(lang.wrongFormat(prefix))
                 await reply(lang.wait())
@@ -1682,7 +1812,7 @@ case 'textprocmd': case 'textpromenu':{
 }
          break 
          case 'islamcmd': case 'islammenu':{
- alpha.sendButImage(m.chat, sender, [{buttonId: '.command',buttonText:{displayText: '༺ Back'},type: 1},{buttonId:'owner',buttonText: {displayText:'Owner ༻'}, type: 1}], `Selamat ${salam} @${sender.split('@')[0]} 😊\n\n╭─⬣「 _*INFO BOT*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *Name* : ${botname}\n│ *Owner* : @${ownernomer.split("@")[0]}\n│ *Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣` + '\n\n' +  lang.islammenu(prefix), `© ${ownername}`, [sender, ownernomer + '@s.whatsapp.net'], {quoted:m})
+ alpha.sendButImage(m.chat, sender, [{buttonId: '.command',buttonText:{displayText: '༺ Back'},type: 1},{buttonId:'owner',buttonText: {displayText:'Owner ༻'}, type: 1}], `Selamat ${salam} @${sender.split('@')[0]} ??\n\n╭─⬣「 _*INFO BOT*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *Name* : ${botname}\n│ *Owner* : @${ownernomer.split("@")[0]}\n│ *Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣` + '\n\n' +  lang.islammenu(prefix), `© ${ownername}`, [sender, ownernomer + '@s.whatsapp.net'], {quoted:m})
 }
          break 
         case 'asupancmd': case 'asupanmenu':{
