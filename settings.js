@@ -12,18 +12,18 @@ global.APIKeys = {
 }
 
 // setting 
-global.autoread = false // auto read pesan / message
-global.autorecording = true //status auto merekam ( auto record )
+//global.autoread = false // auto read pesan / message
+global.autorecording = false //status auto merekam ( auto record )
 //global.autoketik = false //status auto mengetik (auto typing)
 //global.available = false //status online (online)
 
 // Other
-global.botname = "⌬ Lolicon BOT 』" //namabot kalian
-global.ownername= "⇱AkyraCans" //nama kalian
+global.botname = "⌬ Hatsune BOT-MD" //namabot kalian
+global.ownername= "⇱AkyraKawaii" //nama kalian
 global.myweb ="https://chat.whatsapp.com/CXh8962GOxK6cwDwLjlABw" //bebas asal jan hapus
-global.youtube = "none" //bebas asal jan hapus
-global.github = "none" //bebas
-global.email = "none" //bebas
+global.youtube = "https://chat.whatsapp.com/CXh8962GOxK6cwDwLjlABw" //bebas asal jan hapus
+global.github = "https://chat.whatsapp.com/CXh8962GOxK6cwDwLjlABw" //bebas
+global.email = "https://chat.whatsapp.com/CXh8962GOxK6cwDwLjlABw" //bebas
 global.region = "Isekai" //bebas
 global.ownernomer = "6281347927862" // nomor wa kalian
 global.ownernomerr = "+6281347927862" //nmr wa kalian
@@ -31,7 +31,7 @@ global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder i
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/2fac76c84d61e4d1bb957.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6281347927862","6282253479547"] //ganti agar fitur owner bisa di gunakan
-global.packname = '⌬ Lolicon BOT' //sticker wm ubah
+global.packname = '⌬ Hatsune BOT-MD' //sticker wm ubah
 global.author = '+62 822-5347-9547' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=blood&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
