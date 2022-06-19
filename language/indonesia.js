@@ -85,22 +85,31 @@ exports.notNum = (q) => {
     return `"${q}", Bukan Angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai Kak ${pushname} 👋 Selamat ${salam} , 
-Saya ${botname}, Bot Ini Adalah Beta Multi-Device Whatsapp.
+	return`Hai ${pushname} Selamat ${salam} , 
+
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
-*⌚Time Server : ${time}*
-*📚 List-Menu Lolicon-Md :*
+⎔┈────────────────┈⎔
+
+ *💬Bot Name : ⌬ Hatsune-Bot*
+ *📎Version : 3.0*
+ *🖌️Perfix : Multi*
+ *🏷️Total Features : 700+*
+ *🗃️Lib : Baileys-Md@4.0.0*
+ *⌚Time Server : ${time}*
+
+⎔┈────────────────┈⎔
+     *📚All Hatsune Bot Menu*
 
 ╭─❒ 「 Bot Info 」 
 ├⎔ ${prefix}owner
 ├⎔ ${prefix}rules
 ├⎔ ${prefix}sc
-├⎔ ${prefix}ping
+├⎔ ${prefix}speed
 ├⎔ ${prefix}runtime
-├⎔ ${prefix}botstatus
+├⎔ ${prefix}infobot
 ╰❒ ${prefix}donate
 
 
@@ -184,6 +193,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 ╭─❒ 「 Anime 」 
 ├⎔ ${prefix}quotesanime
+├⎔ ${prefix}wallanime
 ├⎔ ${prefix}anime [query]
 ├⎔ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
@@ -847,71 +857,67 @@ exports.rules = (prefix) => {
     return `
 *── 「 RULES AND FAQ 」 ──*
 
-1. Jangan spam bot. 🙅
-Sanksi: *❎ WARN/SOFT BLOCK*
+1. Jangan Spam Bot
+Sanksi: *WARN/SOFT BLOCK*
 
-2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+2. Jangan Telepon Bot
+Sanksi: *SOFT BLOCK*
 
-3. Jangan mengeksploitasi bot.😖
+3. Jangan Mengeksploitasi Bot
 Sanksi: *PERMANENT BLOCK*
 
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
 
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
+🗯️ Bot Tidak Atau Lambat Merespon ?
+✉️ Mungkin Dipengaruhi Banyaknya Permintaan Command
 
-🗯️ Boleh saya menambah ke grup?
-➡️ Untuk sementara bot dalam status free to add.
+🗯️ Dimana Saya Bisa Mendapatkan Script Dari Bot Ini ?
+✉️ Script Ini Masih Private Dan Tidak Pernah Diperjual Belikan
 
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
+🗯️ Boleh Saya Menambah Ke Grup?
+✉️ Bot Dalam Status Free To Add Berbatas
 
-🗯️ Kak, kok syaa chat owner tidak direspon?
-➡️ Owner hanya merespon pertanyaan seputar bot Dan kendala eror, tidak untuk kenalan ataupun mengemis script.
+🗯️ Prefixnya Apa Ya?
+✉️ Bot Ini Menggunakan Multi Prefix, Contohnya , . #
+
+🗯️ Kok Saya Chat Owner Tidak Direspon?
+✉️ Owner Hanya Merespon Pertanyaan Seputar Bot Dan Kendala Eror, Tidak Untuk Kenalan Ataupun Mengemis Script.
 
 
-Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
+Jika Sudah Dipahami Rules-nya, Silakan Ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
-
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
-😖🙏
+⚠️ Segala Kebijakan Dan Ketentuan Hatsune Di Pegang Oleh Owner Dan Segala Perubahan Kebijakan, Sewaktu Waktu Owner Berhak Mencabut, Memblokir User
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`Welcome And Please Intro
 	
 ╭ 𝖭𝖺𝗆𝖺 :
 ├⎔ 𝖴𝗆𝗎𝗋 :
 ├⎔ 𝖦𝖾𝗇𝖽𝖾𝗋 :
 ├⎔ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+╰❒ Please Obey Group Rules`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`Mental Tidak Aman?
 Goodbye`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
-`
+Private 🔐`
 }
 exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
+Hai
+Kalian Bisa Mendukung Saya Agar Bot Ini Tetap Up To Date Dengan Cara Donasi
 
-Berapapun donasi kalian akan sangat berarti 👍
+Berapapun Donasi Kalian Akan Sangat Berarti!!!
 
 Thanks!
 
-Contact person Owner:
+Contact Person Owner:
 wa.me/${ownernomer}
 
     `
@@ -922,9 +928,9 @@ exports.info = (prefix) =>{
 ├⎔ ${prefix}owner
 ├⎔ ${prefix}rules
 ├⎔ ${prefix}sc
-├⎔ ${prefix}ping
+├⎔ ${prefix}speed
 ├⎔ ${prefix}runtime
-├⎔ ${prefix}botstatus
+├⎔ ${prefix}infobot
 ╰❒ ${prefix}donate
 `}
 
@@ -999,6 +1005,7 @@ exports.group = (prefix) =>{
 exports.anime = (prefix) =>{
 	return`╭─❒ 「 Anime 」 
 ├⎔ ${prefix}quotesanime
+├⎔ ${prefix}wallanime
 ├⎔ ${prefix}anime [query]
 ├⎔ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
