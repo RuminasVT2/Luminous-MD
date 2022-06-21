@@ -1778,7 +1778,7 @@ break
 							alpha.sendKatalog2(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
 							}
 						if(typemenu == 'list'){
-							alpha.sendListMenu(m.chat, `╭━━━━┈⎔ *INFO BOT*\n├❏ *Bot Name* : ${botname}\n├❏ *Owner* : ${ownername}\n├❏ *Version* : 3.0\n├❏ *Perfix* : Multi\n├❏ *Total Features* : 700+\n├❏ *Lib* : Baileys-Md@4.0.0\n├❏ *Ram* : ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}\n╰┬───┈⎔ *INFO USER*\n┌┤ *Name* : ${pushname}\n││ *Number* : ${sender.split("@")[0]}\n││ *Status* : ${isCreator? ` Owner️ Hatsune Bot` :`User Hatsune Bot`}\n│╰────────────┈⎔\n│ Daily Words\n│ Updates Always Running\n╰━━━━━━━━━━━━┈⎔\n*Runtime* : \n${runtime(process.uptime())}\n`, `© ${ownername}`, `Selamat ${salam} ${pushname}`, `CLICK HERE`, {quoted:fgif})
+							alpha.sendListMenu(m.chat, `╭━━━━┈⎔ *INFO BOT*\n├❏ *Bot Name* : ${botname}\n├❏ *Owner* : ${ownername}\n├❏ *Version* : 3.0\n├❏ *Perfix* : Multi\n├❏ *Total Features* : 700+\n├❏ *Lib* : Baileys-Md@4.0.0\n├❏ *Ram* : ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}\n╰┬───┈⎔ *INFO USER*\n┌┤ *Name* : ${pushname}\n││ *Number* : ${sender.split("@")[0]}\n││ *Status* : ${isCreator? ` Owner️ Hatsune Bot` :`User Hatsune Bot`}\n│╰────────────┈⎔\n│ Bot Ke-3\n│ wa.me/6285159258830\n╰━━━━━━━━━━━━┈⎔\n*Runtime* : \n${runtime(process.uptime())}\n`, `© ${ownername}`, `Selamat ${salam} ${pushname}`, `CLICK HERE`, {quoted:fgif})
 						}
 					}
 					break    
