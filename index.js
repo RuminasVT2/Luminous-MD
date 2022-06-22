@@ -840,7 +840,7 @@ case 'wallanime':
                 reply('Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot')
             }
             break
-            case 'ownerr': case 'creator': {
+            case 'owner': case 'creator': {
                 alpha.sendContact(m.chat, global.owner, m)
             }
             break
