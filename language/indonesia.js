@@ -100,6 +100,9 @@ exports.listMenu = (time, salam, pushname, prefix) => {
  *🗃️Lib : Baileys-Md@4.0.0*
  *⌚Time Server : ${time}*
 
+Bot Ke-1
+wa.me/6282253479547
+
 ⎔┈────────────────┈⎔
      *📚All Hatsune Bot Menu*
 
